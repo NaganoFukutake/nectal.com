@@ -9,7 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-
+        <link rel="shortcut icon" href="{{ asset('favi.ico') }}">
         <!-- Styles -->
         <style>
             html, body {
@@ -78,9 +78,13 @@
             @endif
 
             <div class="content">
+                <img src="{{asset('/image/monster.gif')}}" alt="">
+                <img src="{{asset('/image/monster.gif')}}" alt="">
+                <img src="{{asset('/image/monster.gif')}}" alt="">
                 <div class="title m-b-md">
-                    Laravel
+                    Nectal Map
                 </div>
+                <img src="{{asset('/image/wisk.jpg')}}" alt="">
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
