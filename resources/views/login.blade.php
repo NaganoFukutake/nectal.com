@@ -3,7 +3,7 @@
 <head>
 	<title>login</title>
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
-	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
 </head>
 <body>
 	<form action="{{ route('top.index') }}" method="POST">
@@ -13,7 +13,7 @@
 				<li>User Name</li>
 				<li><input type="" name="username" value="" class="w20" required></li>
 			</ul>
-			<ul class="listStyle f25 top50">
+			<ul class="listStyle f25 top50 font1">
 				<li>Passward</li>
 				<li><input type="" name="pass" value="" class="w20" required></li>
 			</ul>
@@ -23,9 +23,6 @@
 	<div class="center top50">
 		<p><a href="#" class="linkHover">＃パスワードを忘れた方</a></p>
 		<p><a href="#" class="linkHover">#ユーザーネイムを忘れた方</a></p>
-		
 	</div>
-
-
 </body>
 </html>
