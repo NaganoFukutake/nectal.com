@@ -1,0 +1,30 @@
+body { padding: 0 50px; }
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*float系*/
+.left { float: left !important; }
+
+/*width height系*/
+.w15 { width: 15px !important; }
+.w70 { width: 70px !important; }
+.w40 { width: 40% !important; }
+
+
+/*margin系*/
+.mright30 { margin-right: 30px !important; }
+.top50 { margin-top: 50px !important; }
+
+
+.timeline {
+	padding: 50px;
+	border: 2px groove gray;
+	width: 25%;
+}
+
+.timeline img {
+	border-radius: 30px;
+}
