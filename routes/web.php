@@ -12,3 +12,4 @@
 */
 
 Route::resource('/', 'storesController');
+Route::resource('mypage', 'mypageController');
