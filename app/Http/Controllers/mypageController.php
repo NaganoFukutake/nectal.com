@@ -23,7 +23,7 @@ class mypageController extends Controller
      */
     public function create()
     {
-        //
+        return view('mypage/create');
     }
 
     /**
