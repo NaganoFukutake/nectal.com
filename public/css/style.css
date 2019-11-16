@@ -1,0 +1,21 @@
+body{ margin: 0;  }
+ul { padding: 0; }
+
+a {
+	text-decoration: none;
+}
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  text-align: center;
+  background-color: #ddd;
+}
+
+.header-logo {
+  width: 150px;
+}
