@@ -13,3 +13,7 @@
 
 Route::resource('/', 'storesController');
 Route::resource('mypage', 'mypageController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
