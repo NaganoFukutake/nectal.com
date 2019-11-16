@@ -1,4 +1,4 @@
-body { padding: 0 50px; }
+
 .clearfix:after {
   content: "";
   display: block;
@@ -16,15 +16,56 @@ body { padding: 0 50px; }
 
 /*margin系*/
 .mright30 { margin-right: 30px !important; }
-.top50 { margin-top: 50px !important; }
 
+.top30 { margin-top: 30px !important; }
+.top50 { margin-top: 50px !important; }
+.top100 { margin-top: 100px !important; }
+
+.mleft10 { margin-left: 10px !important; }
+.mleft30 { margin-right: 30px !important; }
+.mleft65 { margin-left: 65px !important; }
+
+.btm30 { margin-bottom: 30px !important; }
+
+/*padding系*/
+.pd050 { padding: 0 50px !important; }
+
+
+/*font系*/
+.f12 { font-size: 12px !important; }
+
+
+/*color系*/
+.orenge { color: #FFA500 !important; }
+
+/*line-heght系*/
+.lH2{ line-height: 2.5 !important; }
 
 .timeline {
 	padding: 50px;
-	border: 2px groove gray;
+	border: 2px groove #FFA500;
 	width: 25%;
 }
 
 .timeline img {
 	border-radius: 30px;
+}
+
+.linkstyle {
+	text-decoration: none;
+	color: black;
+}
+
+.underbar { background: linear-gradient(transparent 50%, yellow 50%); }
+
+.btn {
+	padding: 10px 20px;
+	border: 1px solid #000;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+
+.btn:hover {
+	background-color: #FFA500;
+	color: #fff;
 }
