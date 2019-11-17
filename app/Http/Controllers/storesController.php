@@ -13,7 +13,6 @@ class storesController extends Controller
      */
     public function index()
     {
-        //
         return view('top');
     }
 

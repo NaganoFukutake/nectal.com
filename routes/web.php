@@ -12,7 +12,9 @@
 */
 
 Route::resource('/', 'storesController');
-Route::resource('mypage', 'mypageController');
+Route::group(['middleware' => ['auth']], function() {
+    Route::resource('mypage', 'mypageController');
+});
 
 Auth::routes();
 

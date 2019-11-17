@@ -1,4 +1,9 @@
 <div class="left-block fl-left">
+    <div class="auth-user-name">
+        {{-- @if (Auth::guest()) --}}
+            {{$user['name']}}
+        {{-- @endif   --}}
+    </div>
     <img class="profile-img" src="{{asset('image/sample.jpg')}}">
     <div class="menu-area">
         <a href="{{route('mypage.index')}}" class="mymenu">HOME</a>
