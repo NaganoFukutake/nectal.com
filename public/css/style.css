@@ -15,43 +15,74 @@ a {
 
 .header {
   text-align: center;
-  background-color: #ddd;
+  /* background-color: #d6832d; */
+  background: linear-gradient(#ccb3af,#d6832d);
   margin-bottom: 20px;
   position: relative;
 }
 
 .header-logo {
-  width: 150px;
+  width: 80px;
 }
 
+/* ハンバーガーメニュー */
 .nav-btn {
   position: absolute;
   right: 50px;
-  top: 50px;
+  top: 20px;
+  cursor: pointer;
+  width: 50px;
 }
 
 .btn-line {
   height: 5px;
-  width: 50px;
+  width: 40px;
   background-color: #000;
-  margin: 10px 0;
+  margin: 7px 0;
   border-radius: 5px;
-  background-color: rgb(209, 105, 20);
+  background-color: rgb(255, 255, 255);
+  transition: .5s;
+}
+
+.active .btn-line:nth-child(1) {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 40%;
+  transition: .5s;
+}
+
+.active .btn-line:nth-child(2) {
+  opacity: 0;
+}
+
+.active .btn-line:nth-child(3) {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 40%;
+  transition: .5s;
 }
 
 .nav-slidebar {
   position: absolute;
   right: 0;
-  top: 145px;
+  top: 81px;
   width: 300px;
-  background-color: rgb(226, 141, 61);
+  background-color: #d6832d;
 }
 
-.nav-slidebar li {
+/* .nav-slidebar li {
   color: #ddd;
-  padding: 20px 0;
-}
+} */
 
 .nav-slidebar li a {
   color: #fff;
+  padding: 20px 0;
+  display: block;
 }
+
+.nav-slidebar li a:hover {
+  background-color: rgb(215, 238, 12);
+  /* color: #000; */
+  font-size: 20px;
+}
+/* ハンバーガーメニュー ここまで*/

@@ -6,6 +6,7 @@
         <a href="javascript:void(0);" class="mymenu">アクティビティ</a>
         <a href="javascript:void(0);" class="mymenu">DM</a>
         <a href="{{route('mypage.create')}}" class="mymenu">投稿する</a>
+        <a href="{{route('mypage.create')}}" class="mymenu">フォローリスト</a>
         <a href="javascript:void(0);" class="mymenu">アカウント</a>
     </div>
 </div>
