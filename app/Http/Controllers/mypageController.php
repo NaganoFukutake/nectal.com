@@ -1,11 +1,15 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 
 class mypageController extends Controller
 {
+
+    public function __construct() {
+
+    }
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +17,9 @@ class mypageController extends Controller
      */
     public function index()
     {
-        return view('mypage/index');
+        $this->user = Auth::user();
+        $user = $this->user;
+        return view('mypage/index', compact('user'));
     }
 
     /**
@@ -23,7 +29,9 @@ class mypageController extends Controller
      */
     public function create()
     {
-        return view('mypage/create');
+        $this->user = Auth::user();
+        $user = $this->user;
+        return view('mypage/create', compact('user'));
     }
 
     /**
