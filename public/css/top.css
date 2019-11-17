@@ -12,6 +12,11 @@
 .w15 { width: 15px !important; }
 .w70 { width: 70px !important; }
 .w40 { width: 40% !important; }
+.w300 { width: 300px; }
+
+.pointer {
+	cursor: pointer;
+}
 
 
 /*margin系*/
@@ -41,6 +46,10 @@
 /*line-heght系*/
 .lH2{ line-height: 2.5 !important; }
 
+
+/*天地中央系*/
+.center { text-align: center !important; }
+
 .timeline {
 	padding: 50px;
 	border: 2px groove #FFA500;
@@ -69,3 +78,15 @@
 	background-color: #FFA500;
 	color: #fff;
 }
+
+.Searchform {
+	border: 2px solid #FFA500;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 300px;
+	margin-right: 50px;
+	font-size: 15px;
+	padding: 5px 15px;
+}
+

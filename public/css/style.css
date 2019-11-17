@@ -7,6 +7,18 @@ a {
 	text-decoration: none;
 }
 
+
+.w50 { width: 50px; }
+.relative { position: relative; }
+.headicon { 
+  position: absolute;
+  top: 20px;
+  left: 45px;
+ }
+
+.borderR30 {
+	border-radius: 30px;
+}
 .clearfix:after {
   content: "";
   display: block;
@@ -86,3 +98,5 @@ a {
   font-size: 20px;
 }
 /* ハンバーガーメニュー ここまで*/
+
+
