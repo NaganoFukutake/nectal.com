@@ -12,8 +12,11 @@
     <title>TOPページ</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header relative">
     <img class="header-logo" src="{{asset('image/Nectal_logo.png')}}" alt="no_logo">
+    <div class="headicon">
+      <img class="w50 borderR30" src="{{ asset('image/sample.jpg') }}">
+    </div>
     <div class="nav-btn">
         <div class="btn-line"></div>
         <div class="btn-line"></div>

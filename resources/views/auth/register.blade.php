@@ -1,7 +1,41 @@
-@extends('layouts.app')
+@push('css')
+@endpush
+    <link href="{{ asset('css/login.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Kosugi+Maru&display=swap" rel="stylesheet">
+
+@extends('layouts.front')
 
 @section('content')
-<div class="container">
+    
+<div class="container center bodypd">
+    @guest
+        <div class="dspIB">
+            <a class="btn" href="{{ route('login') }}">{{ __('ログイン') }}</a>
+        </div>
+        <div class="dspIB">
+            @if (Route::has('register'))
+                <a class="btn" href="{{ route('register') }}">{{ __('新規登録') }}</a>
+            @endif
+        </div>
+    @else
+        <div class="nav-item dropdown">
+            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                {{ Auth::user()->name }} <span class="caret"></span>
+            </a>
+
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{{ route('logout') }}"
+                   onclick="event.preventDefault();
+                                 document.getElementById('logout-form').submit();">
+                    {{ __('Logout') }}
+                </a>
+
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </div>
+        </div>
+    @endguest
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
