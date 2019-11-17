@@ -14,7 +14,9 @@
                         </div>
                         <div class="text">
                             <p>
-                                    女優の沢尻エリカ容疑者が、東京都内の自宅で合成麻薬のＭＤＭＡを所持していたとして、警視庁に逮捕されました。<br>「私の物に間違いない」と容疑を認めているということです。
+                                    The right thing… what is it?<br>
+                                    I wonder if you do the right thing…<br>
+                                    Does it really make everybody happy?
                             </p>
                         </div>
                         <div class="content-action">

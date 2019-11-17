@@ -1,19 +1,21 @@
-body{ margin: 0;  }
-ul { padding: 0; }
-li { list-style: none;}
-p { margin: 0;}
-
-a {
-	text-decoration: none;
-}
-
-
 .w50 { width: 50px; }
 .relative { position: relative; }
-.headicon { 
+.header-icon { 
   position: absolute;
-  top: 20px;
+  top: 0;
   left: 45px;
+  width: 240px;
+  height: 80px;
+ }
+.header-icon .icon {
+  width:70px;
+  padding: 9px;
+}
+
+.header-icon .register, .header-icon .login {
+  color: #fff;
+  display: inline-block;
+  padding: 30px 20px;
  }
 
 .borderR30 {
@@ -48,9 +50,9 @@ a {
 
 .btn-line {
   height: 5px;
-  width: 40px;
+  width: 100%;
   background-color: #000;
-  margin: 7px 0;
+  margin: 9px 0;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
   transition: .5s;
