@@ -4,8 +4,11 @@
 @extends('layouts/front')
 @section('content')
 	<!-- 検索フォーム -->
-	<div>
-		
+	<div class="center">
+		<form action="#" method="post">
+			<input type="search" name="store" placeholder="例) 店舗名　駅名　キーワード　etc" class="Searchform">
+			<input type="submit" value="検索する" class="btn pointer">
+		</form>
 	</div>
 	<div class="clearfix pd050 top100">
 		<!-- 店舗タイムライン -->

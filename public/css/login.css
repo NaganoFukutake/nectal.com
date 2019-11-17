@@ -1,0 +1,47 @@
+.center { text-align: center; }
+.left { float: left; }
+.dspIB { display: inline-block; }
+.top100 { margin-top: 100px; }
+.top50 { margin-top: 50px; }
+
+
+.inputform {
+	border: 2px solid #FFA500;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 300px;
+	font-size: 15px;
+	padding: 5px 15px;
+}
+
+.btn {
+	padding: 10px 20px;
+	border: 1px solid #000;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+
+.btn:hover {
+	background-color: #FFA500;
+	color: #fff;
+}
+
+.bodypd {
+	padding: 100px 0;
+}
+
+.inputbox {
+	margin-top: 50px;
+}
+
+.textcolor {
+	color: #FFA500;
+}
+
+.title {
+	font-family: 'Kosugi Maru', sans-serif;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 41px;
+	color: #FFA500;
+}
