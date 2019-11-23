@@ -53,7 +53,9 @@ class mypageController extends Controller
      */
     public function show($id)
     {
-        //
+        $this->user = Auth::user();
+        $user = $this->user;
+        return view('mypage/activity', compact('user'));
     }
 
     /**
@@ -64,7 +66,9 @@ class mypageController extends Controller
      */
     public function edit($id)
     {
-        //
+        $this->user = Auth::user();
+        $user = $this->user;
+        return view('mypage/prof_edit', compact('user'));
     }
 
     /**

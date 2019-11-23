@@ -11,4 +11,15 @@ $(function() {
         }
     });
 
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('.welcome').fadeOut(1000);
+            $.cookie('admin-welcome', true, {expires: 1});
+        }, 2000);
+    });
+
+    $('.admin-left .level-1 .nav-le1-title').on('click', function() {
+        $(this).next('.level-2').slideToggle();
+    });
+
 });
